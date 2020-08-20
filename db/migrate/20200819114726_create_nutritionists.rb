@@ -6,7 +6,7 @@ class CreateNutritionists < ActiveRecord::Migration[6.0]
       t.string :street
       t.string :place
       t.string :city
-
+      
       t.timestamps
     end
   end

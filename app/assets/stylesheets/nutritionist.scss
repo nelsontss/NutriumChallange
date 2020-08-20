@@ -12,6 +12,7 @@ $secondary-color: white !default;
 
 .input-field {
   background: white;
+  border-radius: 3px;
 }
 
 .btn {
@@ -60,6 +61,7 @@ form .material-icons {
 
 .info-icon {
   color: #3fbe94;
+  padding: 0 !important;
 }
 
 .mc-consulta {
@@ -98,11 +100,11 @@ main {
 
 .name {
   font-size: x-large;
-  color: #3fbe94;
+  color: #4ebda0;
 }
 
 .clinic-name {
-  color: #3fbe94;
+  color: #4ebda0;
 }
 
 .sub-information-col {
@@ -129,6 +131,29 @@ main {
   margin-right: 4% !important;
 }
 
-footer  {
-  background: white;
+.selected-pg {
+  background: #bbfae4 !important;
+}
+
+.selected-pg > a {
+  color: #3fbe94 !important;
+}
+
+.my-select {
+  margin:0;
+}
+
+.selected {
+  background: #bbfae4 !important;
+}
+.selected > span {
+  color: #3fbe94 !important;
+}
+
+li > span {
+  color: black !important;
+}
+li > span:hover {
+  background: #bbfae4 !important;
+  color: #3fbe94 !important;
 }

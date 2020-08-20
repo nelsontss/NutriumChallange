@@ -10,19 +10,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_08_19_120014) do
+ActiveRecord::Schema.define(version: 2020_08_20_161757) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "nutritionists", force: :cascade do |t|
+  create_table "appointments", force: :cascade do |t|
+    t.string "appointment_type"
+    t.float "price"
+    t.bigint "nutritionist_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["nutritionist_id"], name: "index_appointments_on_nutritionist_id"
+  end
+
+  create_table "clinics", force: :cascade do |t|
     t.string "name"
-    t.string "clinic"
     t.string "street"
     t.string "place"
     t.string "city"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "nutritionists", force: :cascade do |t|
+    t.string "name"
+    t.string "code"
+    t.string "nutritionist_type"
+    t.bigint "clinic_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "image"
+    t.index ["clinic_id"], name: "index_nutritionists_on_clinic_id"
   end
 
 end

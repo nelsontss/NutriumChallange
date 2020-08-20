@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  appointment_type: MyString
+  price: 1.5
+
+two:
+  appointment_type: MyString
+  price: 1.5
