@@ -1,0 +1,134 @@
+// Place all the styles related to the nutritionist controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import "materialize/components/color-variables";
+$primary-color: #3fbe94 !default;
+$secondary-color: white !default;
+@import "materialize";
+
+.nav-extended {
+  padding: 1%;
+}
+
+.input-field {
+  background: white;
+}
+
+.btn {
+  background: #e79d78;
+  width: 100%;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #e79d78;
+  opacity: 0.6;
+}
+
+
+.row-element {
+  height: 80%;
+  align-items: center;
+  margin-top: 2% !important;
+  margin-left: 2% !important;
+  margin-bottom: 3% !important;
+}
+
+form .material-icons {
+  color: #3fbe94 !important;
+}
+
+.card-list {
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.card-image img{
+  border-radius: 50% !important;
+}
+
+.card-content {
+  margin: 2%;
+  width: 100%;
+}
+
+.pg-pessoa {
+  margin: 2%;
+  color: #3fbe94;
+  background: #bbfae4;
+}
+
+.info-icon {
+  color: #3fbe94;
+}
+
+.mc-consulta {
+  margin: 2%;
+  color: #e79d78;
+  background: #ebcbb7;
+}
+
+.mc-consulta:hover {
+  background: #ebcbb7;
+  opacity: 0.6;
+}
+
+.pg-pessoa:hover {
+  background: #bbfae4;
+  opacity: 0.6;
+}
+
+.row-name{
+  margin-bottom: 0% !important;
+}
+
+html {
+  background: #edeff5;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.name {
+  font-size: x-large;
+  color: #3fbe94;
+}
+
+.clinic-name {
+  color: #3fbe94;
+}
+
+.sub-information-col {
+  margin-right: 2%;
+  color: #e79d78;
+  padding: 0 !important;
+}
+
+.justify-content-center-row {
+  display: flex;
+  justify-content: center;
+}
+
+.card-location-icon {
+  margin-right: 4%;
+}
+
+.card-clinic-row {
+  margin-bottom: 1% !important;
+}
+
+.card-clinic-row-icon{
+  margin-bottom: 3% !important;
+  margin-right: 4% !important;
+}
+
+footer  {
+  background: white;
+}

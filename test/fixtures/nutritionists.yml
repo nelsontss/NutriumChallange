@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  clinica: MyString
+  rua: MyString
+  localidade: MyString
+  distrito: MyString
+
+two:
+  name: MyString
+  clinica: MyString
+  rua: MyString
+  localidade: MyString
+  distrito: MyString
